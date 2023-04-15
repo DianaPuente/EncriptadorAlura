@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<header>
+    <img src="./imagenes/Logo.png" alt="logo" id="logo">
+</header>
+
+    <section class="cuadroTexto">
+        <form action="">
+            <input type="text" id="texto" class="input-texto" name="texto" placeholder="Ingrese el texto aquí">
+        <div id="encriptaryDesencriptar">
+            <input type="button" id="botonEncriptar" class="botonE" value="Encriptar" >
+            <input type="button" id="botonDesencriptar" class="botonD" value="Desencriptar">
+        </div>
+        </form>
+    </section>
+
+    <section id="resultado" class="caja">
+    <div id="imagen">
+        <img src="./imagenes/Muñeco.png" id="buscador" class="imagenBuscador">
+        <p class="texto1"><strong>Ningún mensaje fue encontrado</strong></p>
+        <p class="texto2">Ingrese el texto que deseas encriptar o desencriptar</p>
+    </div>
+    
+    <div id="copiar">
+        <input type="text" id="mensajeCopiado" class="textoCopiado">
+        <input type="button" id="botonCopiar" class="botonC" value="Copiar">
+    </div>
+    </section>  
+
+<script src="./script/index.js"></script>
+</body>
+</html>
